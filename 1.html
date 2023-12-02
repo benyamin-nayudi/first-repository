@@ -1,0 +1,498 @@
+<!doctype HTML>
+
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- <link href="bootstrap-minified.css" rel="stylesheet"> -->
+        <style>
+            /* .text-center {
+                 text-align: right !important;
+            } */
+            .clearfix::after {
+                content: "";
+                clear: both;
+            }
+            .fade {
+                transition: opacity 2s linear !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container pt-5 my-3 border bg-info text-white">
+            <h3>My First Bootstrap Website</h3>
+            <p>This example includes a .container class</p>
+        </div>
+
+        <div class="container">
+            <div class="card" style="width: 250px;">
+                <img class="card-img-top" src="myImage.jpg" alt="card image" style="height: 250px;">
+                <div class="card-body">
+                    <h4 class="card-title">Dhaval Bharodiya</h4>
+                    <p class="card-text">Web Design and Development Instructor</p>
+                    <a href="" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+
+            <br>
+            <div class="card" style="width: 250px;">
+                <div class="card-img-overlay">
+                    <h4 class="card-title">Dhaval Bharodiya</h4>
+                    <p class="card-text">Web Design and Development Instructor</p>
+                    <a href="" class="btn btn-primary">See Profile</a>
+                </div>
+                <img class="card-img-top" src="myImage.jpg" alt="card image" style="height: 250px;">
+            </div>
+
+            <br>
+            <div class="card" style="width: 250px;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                    <h4 class="card-title">Card Title</h4>
+                    <p class="card-text">Some example text. Some example text.</p>
+                    <a class="card-link" href="#">Card Link</a>
+                    <a class="card-link" href="#">Another Link</a>
+                </div>
+                <div class="card-footer">Footer</div>
+            </div>
+
+            <br>
+            <h4>List groups</h4>
+            <div style="width: 20%;">
+                <ul class="list-group list-group-numbered">
+                    <li class="list-group-item">First item</li>
+                    <li class="list-group-item active">Second item</li>
+                    <li class="list-group-item disabled">Third item</li>
+                    <li class="list-group-item">Fourth item</li>
+                    <li class="list-group-item">Fifth item</li>
+                </ul>
+            </div>
+
+            <br>
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item list-group-item-success">First item</li>
+                <li class="list-group-item list-group-item-warning">Second item</li>
+                <li class="list-group-item list-group-item-danger">Third item</li>
+                <li class="list-group-item list-group-item-info">Fourth item</li>
+                <li class="list-group-item list-group-item-secondary">Fifth item</li>
+            </ul>
+          
+            <br>
+            <h4>Breadcrumbs</h4>
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Photos</a></li>
+                <li class="breadcrumb-item "><a href="#">Summer 2023</a></li>
+                <li class="breadcrumb-item"><a href="#">Montreal</a></li>
+                <li class="breadcrumb-item"><a href="#">Mont-Royal</a></li>
+            </ul>
+
+            <h4>Pagination</h4>
+            <ul class="pagination pagination-sm">
+                <li class="page-item disabled"><a class="page-link" href="https://www.apple.com/ca/">Previous</a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+
+            <br>
+            <h4>Spinners</h4>
+            <div class="spinner-border text-muted"></div>
+            <div class="spinner-border text-primary"></div>
+            <div class="spinner-border text-secondary"></div>
+            <div class="spinner-border text-success"></div>
+            <div class="spinner-border text-info"></div>
+            <div class="spinner-border text-warning"></div>
+            <div class="spinner-border text-danger"></div>
+            <div class="spinner-border text-dark"></div>
+
+            <br><br>
+            <h4>Growing Spinners</h4>
+            <div class="spinner-grow text-muted"></div>
+            <div class="spinner-grow text-primary"></div>
+            <div class="spinner-grow text-secondary"></div>
+            <div class="spinner-grow text-success"></div>
+            <div class="spinner-grow text-info"></div>
+            <div class="spinner-grow text-warning"></div>
+            <div class="spinner-grow text-danger"></div>
+            <div class="spinner-grow text-dark"></div>
+        </div>
+
+        <br><br>
+        <div class="container">
+            <h4>Progress Bars</h4>
+            <div class="progress">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 90%;">90%</div>
+            </div>
+
+            <br>
+            <div class="progress">
+                <div class="progress-bar bg-info" style="width: 80%;">80%</div>
+            </div>
+
+            <br>
+            <div class="progress">
+                <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width: 70%;">70%</div>
+            </div>
+
+            <br>
+            <div class="progress">
+                <div class="progress-bar bg-danger" style="width: 60%;">60%</div>
+            </div>
+
+            <br>
+            <div class="progress">
+                <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" style="width: 50%;">50%</div>
+            </div>
+
+            <br>
+            <div class="progress">
+                <div class="progress-bar bg-secondary" style="width: 40%;">40%</div>
+            </div>
+
+            <br><br>
+            <h4>Badges</h4>
+
+            <span class="badge bg-primary rounded-pill">Primary</span>
+            <span class="badge bg-secondary rounded-pill">Secondary</span>
+            <span class="badge bg-success rounded-pill">Success</span>
+            <span class="badge bg-warning">Warning</span>
+            <span class="badge bg-info">Info</span>
+            <span class="badge bg-danger">Danger</span>
+
+            <button type="button" class="btn btn-primary">Notifications <span class="badge bg-info">10</span></button>
+
+            <br><br>
+            <h4>Buttons</h4>
+
+            <button type="button" class="btn">Basic</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-link">Link</button>
+
+            <br><br>
+            <h4>Buttons Outline</h4>
+
+            <button type="button" class="btn">Basic</button>
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            <button type="button" class="btn btn-outline-success">Success</button>
+            <button type="button" class="btn btn-outline-info">Info</button>
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+            <button type="button" class="btn btn-outline-dark">Dark</button>
+            <button type="button" class="btn btn-outline-light">Light</button>
+
+            <br><br>
+            <h4>Button Sizes</h4>
+
+            <button type="button" class="btn btn-primary btn-lg">Large</button>
+            <button type="button" class="btn btn-primary">Default</button>
+            <button type="button" class="btn btn-primary btn-sm">Small</button>
+
+            <br><br>
+            <h4>Active/Disabled buttons</h4>
+
+            <button type="button" class="btn btn-primary active">Active primary</button>
+            <button type="button" class="btn btn-primary" disabled>Disabled primary</button>
+
+            <br><br>
+            <h4>Spinner buttons</h4>
+
+            <button class="btn btn-primary">
+                <span class="spinner-border spinner-border-sm"></span>
+            </button>
+
+            <button class="btn btn-primary">
+                <span class="spinner-border spinner-border-sm"></span> Loading...
+            </button>
+
+            <button class="btn btn-primary" disabled>
+                <span class="spinner-border spinner-border-sm"></span> Loading...
+            </button>
+
+            <button class="btn btn-primary" disabled>
+                <span class="spinner-grow spinner-grow-sm"></span> Loading...
+            </button>
+
+            <br><br>
+            <h4>Button Groups</h4>
+            <div class="btn-group btn-group-lg">
+                <button type="button" class="btn btn-primary">Apple</button>
+                <button type="button" class="btn btn-primary">Samsung</button>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Sony</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item">Tablet</a>
+                        <a class="dropdown-item">Smartphone</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <br><br>
+            <h4>Alerts</h4>
+            <div class="alert alert-success alert-dismissible fade show">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                <strong>Success!</strong> You should read this message.
+            </div>
+            <div class="alert alert-info alert-dismissible fade show">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                <strong>Info!</strong> You should read this message.
+            </div>
+            <div class="alert alert-warning alert-dismissible fade show">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                <strong>Warning!</strong> You should read this message.
+            </div>
+            <div class="alert alert-danger alert-dismissible">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                <strong>Danger!</strong> You should read this message.
+            </div>
+            <div class="alert alert-primary">
+                <strong>Primary!</strong> You should read this message.
+            </div>
+            <div class="alert alert-secondary">
+                <strong>Secondary!</strong> You should read this message.
+            </div>
+            <div class="alert alert-dark">
+                <strong>Dark!</strong> You should read this message.
+            </div>
+            <div class="alert alert-light">
+                <strong>Light!</strong> You should read this message.
+            </div>
+        </div>
+
+
+        <!-- <div class="container clearfix">
+            <img src="https://tinyurl.com/4k2mkpvf" class="rounded-3 mx-auto d-block" width="365" height="250px">
+        </div> -->
+
+        <!-- <div class="container clearfix">
+            <img src="https://tinyurl.com/4k2mkpvf" class="rounded-3 float-start" width="200" height="150">
+            <img src="https://tinyurl.com/4k2mkpvf" class="rounded-3 float-end" width="200" height="150">
+        </div> -->
+
+        <div class="container">
+            <img src="https://tinyurl.com/4k2mkpvf" class="rounded-3" width="365" height="250px">
+            <img src="https://tinyurl.com/4k2mkpvf" class="rounded-circle" width="365" height="250px">
+            <img src="https://tinyurl.com/4k2mkpvf" class="img-thumbnail" width="365" height="250px">
+        </div>
+
+        <div class="container">
+            <h4>Student Data</h4>
+
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover table-sm">
+                    <tr>
+                        <th>ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                        <th>Address</th>
+                        <th>City</th>
+                        <th>State</th>
+                        <th>Country</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>Grade</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>18</td>
+                        <td>Male</td>
+                        <td>123 Main St</td>
+                        <td>Anytown</td>
+                        <td>CA</td>
+                        <td>USA</td>
+                        <td>123-456-7890</td>
+                        <td>john.doe@example.com</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jane</td>
+                        <td>Smith</td>
+                        <td>17</td>
+                        <td>Female</td>
+                        <td>456 Elm Rd</td>
+                        <td>Another City</td>
+                        <td>NY</td>
+                        <td>USA</td>
+                        <td>987-654-3210</td>
+                        <td>jane.smith@example.com</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Michael</td>
+                        <td>Johnson</td>
+                        <td>19</td>
+                        <td>Male</td>
+                        <td>789 Oak Ave</td>
+                        <td>Someplace</td>
+                        <td>TX</td>
+                        <td>USA</td>
+                        <td>555-123-4567</td>
+                        <td>michael.johnson@example.com</td>
+                        <td>C</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Susan</td>
+                        <td>Williams</td>
+                        <td>18</td>
+                        <td>Female</td>
+                        <td>234 Pine St</td>
+                        <td>Homeville</td>
+                        <td>FL</td>
+                        <td>USA</td>
+                        <td>222-333-4444</td>
+                        <td>susan.williams@example.com</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>David</td>
+                        <td>Brown</td>
+                        <td>17</td>
+                        <td>Male</td>
+                        <td>567 Maple Ave</td>
+                        <td>Somewhere</td>
+                        <td>IL</td>
+                        <td>USA</td>
+                        <td>777-888-9999</td>
+                        <td>david.brown@example.com</td>
+                        <td>B</td>
+                    </tr>
+                </table>
+            </div>
+
+            <table class="table table-striped table-bordered table-hover table-sm">
+                <thead class="table-info">
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-secondary">
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john.deo@hotmail.com</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>Mary</td>
+                        <td>Moe</td>
+                        <td>mary.moe@hotmail.com</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>Jack</td>
+                        <td>Dan</td>
+                        <td>jack.dan@hotmail.com</td>
+                    </tr>
+                    <tr class="table-warning">
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john.deo@hotmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="container">
+            <h4>Background colors with contrasting text colors</h4>
+            <p class="text-bg-primary">This text is important</p>
+            <p class="text-bg-success">This text indicates success</p>
+            <p class="text-bg-info">This text represents some information</p>
+            <p class="text-bg-warning">This text represetns a warning</p>
+            <p class="text-bg-danger">This text represents danger</p>
+            <p class="text-bg-secondary">Secondary text</p>
+            <p class="text-bg-dark">Dark grey text</p>
+
+            <h4>Background colors</h4>
+            <div class="bg-primary p-3"></div>
+            <div class="bg-success p-3"></div>
+            <div class="bg-info p-3"></div>
+            <div class="bg-warning p-3"></div>
+            <div class="bg-danger p-3"></div>
+            <div class="bg-secondary p-3"></div>
+            <div class="bg-dark p-3"></div>
+            <div class="bg-body p-3"></div>
+
+            <h4>Text Colors</h4>
+            <p class="text-muted">This text is muted</p>
+            <p class="text-primary">This text is important</p>
+            <p class="text-success">This text indicates success</p>
+            <p class="text-info">This text represents some information</p>
+            <p class="text-warning">This text represents a warning</p>
+            <p class="text-danger">This text represents danger</p>
+            <p class="text-secondary">Secondary text</p>
+            <p class="text-dark">Dark grey text</p>
+            <p class="text-body">body text</p>
+            <p class="text-white bg-dark">This text is white (on dark background)</p>
+        </div>
+
+        <div class="container">
+            <h4>Bootstrap Text / Typography</h4>
+            <h1>h1 bootstrap heading</h1>
+            <h2>h2 bootstrap heading</h2>
+            <h3>h3 bootstrap heading</h3>
+            <h4>h4 bootstrap heading</h4>
+            <h5>h5 bootstrap heading</h5>
+            <h6>h6 bootstrap heading</h6>
+            <p>Use the mark element to <mark>highlight</mark> text</p>
+            <p>The following HTML elements: <code>span, section, and div</code> defines a section in a document.</p>
+            <p class="text-uppercase">This is an uppercase text.</p>
+            <p class="text-lowercase">THIS IS A LOWERCASE TEXT.</p>
+            <p class="text-capitalize">This is a capitalize text.</p>
+            <p class="text-start">This is a left-aligned text.</p>
+            <p class="text-end">This is a right-aligned text.</p>
+            <p class="text-center">This is a center-aligned text.</p>
+        </div>
+
+        <div class="container">
+            <h4>Bootstrap Grid System</h4>
+            <div class="row">
+                <div class="col-md-1 bg-primary py-4 text-center">.col</div>
+                <div class="col-md-1 bg-secondary py-4 text-center">.col</div>
+                <div class="col-md-1 bg-success py-4 text-center">.col</div>
+                <div class="col-md-1 bg-info py-4 text-center">.col</div>
+                <div class="col-md-1 bg-warning py-4 text-center">.col</div>
+                <div class="col-md-1 bg-danger py-4 text-center">.col</div>
+                <div class="col-md-1 bg-white py-4 text-center">.col</div>
+                <div class="col-md-1 bg-secondary py-4 text-center">.col</div>
+                <div class="col-md-1 bg-success py-4 text-center">.col</div>
+                <div class="col-md-1 bg-info py-4 text-center">.col</div>
+                <div class="col-md-1 bg-warning py-4 text-center">.col</div>
+                <div class="col-md-1 bg-primary py-4 text-center">.col</div>
+                
+                <div class="col-md-4 bg-info py-4 text-center">.col</div>
+                <div class="col-md-4 bg-warning py-4 text-center">.col</div>
+                <div class="col-md-4 bg-danger py-4 text-center">.col</div>
+
+                <div class="col-md-4 bg-primary py-4 text-center">.col</div>
+                <div class="col-md-8 bg-secondary py-4 text-center">.col</div>
+
+                <div class="col-md-6 bg-warning py-4 text-center">.col</div>
+                <div class="col-md-6 bg-success py-4 text-center">.col</div>
+
+                <div class="col-md-12 bg-secondary py-4 text-center">.col</div>
+            </div>
+        </div>
+
+        <!-- <div class="container-fluid">
+            <h3 class="text-primary">My First Bootstrap Website</h3>
+            <p>This example includes a .container class</p>
+        </div> -->
+    </body>
+</html>
