@@ -1,0 +1,26 @@
+.container {
+    display: flex; /* Use flexbox */
+  }
+  
+  .section-left {
+    flex: 1; /* Each section will take up equal space */
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 15%; 
+    margin:20px;
+    
+
+  }
+  .section-right{
+    flex: 1; /* Each section will take up equal space */
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin:20px;
+    max-width: 100%;
+  }
+  .notebook {
+    flex: 0 0 300px; /* Fixed width for notebook component */
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin:20px;
+  }

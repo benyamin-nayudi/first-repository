@@ -1,0 +1,8 @@
+.horizontal-menu {
+    display: flex; /* Display the list items horizontally */
+    list-style-type: none; /* Remove default bullet points */
+  }
+  
+  .horizontal-menu li {
+    margin-right: 10px; /* Add some spacing between the menu items */
+  }
