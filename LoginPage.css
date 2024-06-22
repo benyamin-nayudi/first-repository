@@ -1,0 +1,109 @@
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.success {
+  color: green;
+  font-size: 14px;
+}
+
+
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.login-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-group input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.error {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  background: linear-gradient(to left, #96B8DC, #424240);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+.menu {
+  background: linear-gradient(to left, #96B8DC, #424240);
+  overflow: hidden;
+  width: 100%;
+  padding: 14px 0;
+  text-align: center;
+}
+
+.menu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 12px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+ 
+  color: black;
+}
